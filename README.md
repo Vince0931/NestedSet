@@ -7,8 +7,9 @@ Tree exemple
 ![some caption](Tree1.png)
 
 
-result 
+result
 
+```{r}
   id name pathString id_parent total_child_count lft rgt leafCount
 1  1    A          A        NA                 1   1  16         5
 2  2    B        A/B         1                 2   2   9         3
@@ -18,3 +19,4 @@ result
 6  6    C        A/C         1                 2  10  15         2
 7  7    G      A/C/G         6                 3  11  12         1
 8  8    H      A/C/H         6                 3  13  14         1
+```
